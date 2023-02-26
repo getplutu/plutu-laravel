@@ -8,9 +8,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/plutu/plutu-laravel/v/stable.svg)](https://packagist.org/packages/plutu/plutu-laravel)
 [![Version](http://poser.pugx.org/plutu/plutu-laravel/version)](https://packagist.org/packages/plutu/plutu-laravel)
-[![PHP Version Require](http://poser.pugx.org/plutu/plutu-laravel/require/php)](https://packagist.org/packages/plutu/plutu-laravel)
-[![Total Downloads](https://poser.pugx.org/plutu/plutu-laravel/downloads.svg)](https://packagist.org/packages/plutu/plutu-laravel)
-[![Monthly Downloads](https://poser.pugx.org/plutu/plutu-laravel/d/monthly)](https://packagist.org/packages/plutu/plutu-laravel)
+[![Total Downloads](http://poser.pugx.org/plutu/plutu-laravel/downloads)](https://packagist.org/packages/plutu/plutu-laravel)
 [![License](https://poser.pugx.org/plutu/plutu-laravel/license)](https://packagist.org/packages/plutu/plutu-laravel)
 
 Plutu Laravel is the official package that builds upon the [Plutu PHP](https://github.com/getplutu/plutu-php) package to simplify the integration of Plutu services into Laravel applications. This package provides developers with a straightforward and consistent interface to access Plutu's API and services, enabling them to seamlessly incorporate Plutu's capabilities into their Laravel projects.
