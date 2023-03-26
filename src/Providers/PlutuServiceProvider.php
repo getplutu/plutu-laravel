@@ -7,6 +7,7 @@ use Plutu\Services\PlutuSadad;
 use Plutu\Services\PlutuAdfali;
 use Plutu\Services\PlutuLocalBankCards;
 use Plutu\Services\PlutuTlync;
+use Plutu\Services\PlutuMpgs;
 use Illuminate\Foundation\Console\AboutCommand;
 
 class PlutuServiceProvider extends ServiceProvider
@@ -33,6 +34,7 @@ class PlutuServiceProvider extends ServiceProvider
         $this->registerService(PlutuAdfali::class, ['api_key', 'access_token']);
         $this->registerService(PlutuLocalBankCards::class, ['api_key', 'access_token', 'secret_key']);
         $this->registerService(PlutuTlync::class, ['api_key', 'access_token', 'secret_key']);
+        $this->registerService(PlutuMpgs::class, ['api_key', 'access_token', 'secret_key']);
     }
 
     /**
@@ -58,7 +60,7 @@ class PlutuServiceProvider extends ServiceProvider
     {
         AboutCommand::add('Plutu Laravel', function () {
             return [
-                'Version' => '1.0.0'
+                'Version' => '1.1.0'
             ];
         });
     }
