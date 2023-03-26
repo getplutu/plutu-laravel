@@ -6,7 +6,6 @@
 
 # Official Plutu SDK for Laravel
 
-[![Latest Stable Version](https://poser.pugx.org/plutu/plutu-laravel/v/stable.svg)](https://packagist.org/packages/plutu/plutu-laravel)
 [![Version](http://poser.pugx.org/plutu/plutu-laravel/version)](https://packagist.org/packages/plutu/plutu-laravel)
 [![Total Downloads](http://poser.pugx.org/plutu/plutu-laravel/downloads)](https://packagist.org/packages/plutu/plutu-laravel)
 [![License](https://poser.pugx.org/plutu/plutu-laravel/license)](https://packagist.org/packages/plutu/plutu-laravel)
@@ -55,6 +54,7 @@ use PlutuAdfali;
 use PlutuSadad;
 use PlutuLocalBankCards;
 use PlutuTlync;
+use PlutuMpgs;
 ```
 
 Here's a snippet of how to use it:

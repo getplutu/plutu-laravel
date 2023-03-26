@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "plutu/plutu-php": "^1.0"
+        "plutu/plutu-php": "^1.1"
     },
     "autoload": {
         "psr-4": {
@@ -32,7 +32,8 @@
                 "PlutuSadad": "PlutuLaravel\\Facades\\PlutuSadad",
                 "PlutuAdfali": "PlutuLaravel\\Facades\\PlutuAdfali",
                 "PlutuLocalBankCards": "PlutuLaravel\\Facades\\PlutuLocalBankCards",
-                "PlutuTlync": "PlutuLaravel\\Facades\\PlutuTlync"
+                "PlutuTlync": "PlutuLaravel\\Facades\\PlutuTlync",
+                "PlutuMpgs": "PlutuLaravel\\Facades\\PlutuMpgs"
             }
         }
     },
